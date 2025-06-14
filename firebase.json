@@ -1,1 +1,38 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"studentportal-49d00","appId":"1:286125361384:android:9d4fbf7a06c9b96323215d","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"studentportal-49d00","configurations":{"android":"1:286125361384:android:9d4fbf7a06c9b96323215d","ios":"1:286125361384:ios:ce0870cac4fde7a823215d","macos":"1:286125361384:ios:ce0870cac4fde7a823215d","windows":"1:286125361384:web:9c8943fc4cf3266c23215d"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "studentportal-49d00",
+          "appId": "1:286125361384:android:9d4fbf7a06c9b96323215d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "studentportal-49d00",
+          "configurations": {
+            "android": "1:286125361384:android:9d4fbf7a06c9b96323215d",
+            "ios": "1:286125361384:ios:ce0870cac4fde7a823215d",
+            "macos": "1:286125361384:ios:ce0870cac4fde7a823215d",
+            "windows": "1:286125361384:web:9c8943fc4cf3266c23215d"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
